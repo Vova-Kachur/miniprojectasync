@@ -1,0 +1,30 @@
+{
+  "name": "miniprojectasync",
+  "version": "1.0.0",
+  "description": "",
+"browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /miniprojectasync/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vova-Kachur/miniprojectasync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vova-Kachur/miniprojectasync/issues"
+  },
+  "homepage": "https://github.com/Vova-Kachur/miniprojectasync#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "lodash.debounce": "^4.0.8",
+    "parcel": "^2.16.4"
+  }
+}
